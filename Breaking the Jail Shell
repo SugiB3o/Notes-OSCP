@@ -1,0 +1,35 @@
+Python TTY Shell
+
+python -c 'import pty; pty.spawn("/bin/sh")'
+
+python -c 'import pty; pty.spawn("/bin/bash")'
+
+echo os.system('/bin/bash')
+
+Spawn Interactive shell
+
+/bin/sh -i
+
+/bin/bash -i
+
+Spawn Perl TTY Shell
+
+exec "/bin/sh";
+
+perl —e 'exec "/bin/sh";'
+
+Spawn Ruby TTY Shell
+
+exec "/bin/sh"
+
+Spawn Lua TTY Shell
+
+os.execute('/bin/sh')
+
+Spawn TTY Shell from Vi
+
+:!bash
+
+Spwan TTY Shell NMap
+
+!sh
